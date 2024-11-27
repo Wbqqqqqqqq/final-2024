@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Autonomous Driving Quiz Website!</h1>
+    </header>
+    <main>
+        <section>
+            <p id="first">Test your knowledge about autonomous-driving with our fun and informative quiz!</p>
+        </section>
+        <section>        
+                <ul id="more-info">
+                    <li>You should always read the introduction to autonomous driving before you start the quiz.</li>
+                    <li>There are 5 MCQs in total, and there are no time limit.</li>
+                    <li>After you complete the quiz, you will know the correct answers.</li>
+                    <li>Have fun!</li>
+                </ul>
+        </section>
+        <section>
+            <button id="view-more-btn" onclick="showMoreInfo()">View More About Quiz</button>
+            <button id="start-btn" onclick="window.location.href='quiz.html'">Start Quiz</button>
+            <button id="introduction-btn" onclick="window.location.href='autonomous-driving.html'">Introduction to Autonomous Driving</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Car Quiz Website. All rights reserved.</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
