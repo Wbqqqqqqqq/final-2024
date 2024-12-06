@@ -225,6 +225,9 @@ button:hover{
     background: #fff;
     color: #144d34;
 }
+button: focus{
+    outline: 5px solid white;
+}
 .description-item {
     position: relative;
     cursor: pointer;
