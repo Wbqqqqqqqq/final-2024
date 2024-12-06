@@ -226,7 +226,7 @@ button:hover{
     color: #144d34;
 }
 button:focus{
-    outline: 5px solid #374498;
+    outline: 5px solid #EDDB44;
 }
 .description-item {
     position: relative;
